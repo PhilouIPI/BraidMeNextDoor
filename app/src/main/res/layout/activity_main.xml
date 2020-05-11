@@ -17,17 +17,18 @@
             android:id="@+id/logo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             app:srcCompat="@drawable/Artboard8" />
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="75dp"
-            android:layout_margin="10dp"
+            android:layout_margin="2dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:text="@string/bienvenue" />
+            android:text="@string/bienvenue"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -35,38 +36,38 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#66439B"
+        android:background="@drawable/background1"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btProfil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right"
             android:backgroundTint="white"
             android:onClick="btProfil"
             android:text="Profil"
-            android:textColor="#66439B" />
+            android:textColor="#66439B"/>
 
         <Button
             android:id="@+id/btReservation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right"
             android:backgroundTint="white"
             android:onClick="btReservation"
             android:text="Réservations"
-            android:textColor="#66439B" />
+            android:textColor="#66439B"/>
 
         <Button
             android:id="@+id/btMessagerie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right"
             android:backgroundTint="white"
             android:onClick="btMessagerie"
             android:text="Messagerie"
-            android:textColor="#66439B" />
+            android:textColor="#66439B"/>
 
     </LinearLayout>
 
@@ -86,6 +87,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#66439B"
                 app:srcCompat="@android:drawable/ic_menu_myplaces" />
 
             <ImageButton
@@ -93,6 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#66439B"
                 app:srcCompat="@android:drawable/ic_dialog_email" />
 
             <ImageButton
@@ -100,6 +103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#66439B"
                 app:srcCompat="@android:drawable/ic_menu_month" />
 
             <ImageButton
@@ -107,6 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:backgroundTint="#66439B"
                 app:srcCompat="@android:drawable/ic_lock_power_off" />
         </LinearLayout>
     </LinearLayout>
