@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        //1:charger le XML
+        //1:charge le XML
         setContentView(R.layout.activity_main);
 
         //2:recuperation

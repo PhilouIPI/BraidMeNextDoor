@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">BraidMeNextDoor</string>
     <string name="bienvenue">Bienvenue</string>
+    <string name="messagerie">Messagerie</string>
+    <string name="profil">Profil</string>
 </resources>
