@@ -13,6 +13,13 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/artboard"/>
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="0dp"
@@ -22,7 +29,7 @@
             android:fontFamily="@font/quicksand_medium"
             android:gravity="center_vertical"
             android:text="@string/bienvenue"
-            android:textSize="18sp" />
+            android:textSize="18sp"/>
 
     </LinearLayout>
 
@@ -33,44 +40,62 @@
         android:background="#66439B"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btProfil"
-            android:layout_width="125dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/quicksand_medium"
-            android:onClick="btProfil"
-            android:text="@string/profil"
-            android:textColor="#66439B"
-            tools:ignore="RtlHardcoded" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btReservation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/quicksand_medium"
-            android:onClick="btReservation"
-            android:text="Réservations"
-            android:textColor="#66439B"/>
+            <Button
+                android:id="@+id/btProfil"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/quicksand_medium"
+                android:onClick="btProfil"
+                android:text="@string/profil"
+                android:textColor="#66439B"
+                tools:ignore="RtlHardcoded"/>
 
-        <Button
-            android:id="@+id/btMessagerie"
-            android:layout_width="125dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
+        </LinearLayout>
 
-            android:fontFamily="@font/quicksand_medium"
-            android:onClick="btMessagerie"
-            android:text="@string/messagerie"
-            android:textColor="#66439B"
-            tools:ignore="RtlHardcoded" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btReservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/quicksand_medium"
+                android:onClick="btReservation"
+                android:text="Réservations"
+                android:textColor="#66439B"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btMessagerie"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/quicksand_medium"
+                android:onClick="btMessagerie"
+                android:text="@string/messagerie"
+                android:textColor="#66439B"
+                tools:ignore="RtlHardcoded"/>
+        </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
-            android:layout_height="850dp"
-            app:srcCompat="@drawable/texte" />
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/texte"/>
 
     </LinearLayout>
 
@@ -91,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#66439B"
-                app:srcCompat="@android:drawable/ic_menu_myplaces" />
+                app:srcCompat="@android:drawable/ic_menu_myplaces"/>
 
             <ImageButton
                 android:id="@+id/imageButton2"
@@ -99,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#66439B"
-                app:srcCompat="@android:drawable/ic_dialog_email" />
+                app:srcCompat="@android:drawable/ic_dialog_email"/>
 
             <ImageButton
                 android:id="@+id/imageButton3"
@@ -107,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#66439B"
-                app:srcCompat="@android:drawable/ic_menu_month" />
+                app:srcCompat="@android:drawable/ic_menu_month"/>
 
             <ImageButton
                 android:id="@+id/imageButton4"
@@ -115,7 +140,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#66439B"
-                app:srcCompat="@android:drawable/ic_lock_power_off" />
+                app:srcCompat="@android:drawable/ic_lock_power_off"/>
         </LinearLayout>
     </LinearLayout>
 

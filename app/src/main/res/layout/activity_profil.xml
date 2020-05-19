@@ -24,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Gestion Profil" />
 
         <ImageView
@@ -52,6 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="108dp"
             android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Effectue des soins et traitements capillaires dans un but d'hygiène et d'esthétique" />
     </LinearLayout>
 
@@ -64,6 +66,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="36dp"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Editer Photo" />
 
         <ImageView
@@ -85,6 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Tarification:" />
 
         <EditText
@@ -155,6 +159,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Activation de la visibilité" />
     </LinearLayout>
 
@@ -168,6 +173,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Disponibilité: " />
 
         <ImageView
@@ -215,6 +221,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
+            android:fontFamily="@font/quicksand_medium"
             android:text="L'heure du rendez-vous" />
     </LinearLayout>
 
@@ -243,6 +250,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/quicksand_medium"
             android:text="Lieu de travail" />
     </LinearLayout>
 
@@ -251,17 +259,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="@font/quicksand_medium"
         android:text="Sauvegarder" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
-            android:layout_height="124dp"
+            android:layout_height="125dp"
             android:layout_weight="1"
             android:text="" />
     </LinearLayout>
