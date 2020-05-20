@@ -47,14 +47,15 @@
 
             <Button
                 android:id="@+id/btProfil"
-                android:layout_width="125dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:background="#FFFFFF"
                 android:fontFamily="@font/quicksand_medium"
                 android:onClick="btProfil"
                 android:text="@string/profil"
                 android:textColor="#66439B"
-                tools:ignore="RtlHardcoded"/>
+                tools:ignore="RtlHardcoded" />
 
         </LinearLayout>
 
@@ -71,6 +72,7 @@
                 android:fontFamily="@font/quicksand_medium"
                 android:onClick="btReservation"
                 android:text="Réservations"
+                android:background="#FFFFFF"
                 android:textColor="#66439B"/>
         </LinearLayout>
 
@@ -87,7 +89,8 @@
                 android:fontFamily="@font/quicksand_medium"
                 android:onClick="btMessagerie"
                 android:text="@string/messagerie"
-                android:textColor="#66439B"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
                 tools:ignore="RtlHardcoded"/>
         </LinearLayout>
 

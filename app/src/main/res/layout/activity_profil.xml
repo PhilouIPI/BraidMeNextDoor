@@ -25,7 +25,9 @@
             android:layout_height="32dp"
             android:layout_weight="1"
             android:fontFamily="@font/quicksand_medium"
-            android:text="Gestion Profil" />
+            android:text="Gestion Profil"
+            android:textStyle="bold"
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -67,6 +69,8 @@
             android:layout_width="wrap_content"
             android:layout_height="36dp"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
+            android:textColor="#66439B"
             android:text="Editer Photo" />
 
         <ImageView
@@ -89,12 +93,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
+
             android:text="Tarification:" />
 
         <EditText
             android:id="@+id/editText3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="20€/h"
             android:layout_weight="1"
             android:ems="10"
             android:inputType="number" />
@@ -111,6 +118,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:text="2, Avenue Jean-Jaurès 31000 Tlse"
             android:inputType="textPostalAddress" />
 
         <ImageView
@@ -132,6 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:text="06xxxxxx"
             android:inputType="phone" />
 
         <ImageView
@@ -152,6 +161,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textStyle="bold"
             android:text="Switch" />
 
         <TextView
@@ -160,6 +170,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
             android:text="Activation de la visibilité" />
     </LinearLayout>
 
@@ -174,6 +185,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
             android:text="Disponibilité: " />
 
         <ImageView
@@ -194,6 +206,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:text="20/05/20"
             android:inputType="date" />
 
         <ImageView
@@ -214,6 +227,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:ems="10"
+            android:text="14h30"
             android:inputType="time" />
 
         <TextView
@@ -222,6 +236,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
             android:text="L'heure du rendez-vous" />
     </LinearLayout>
 
@@ -236,6 +251,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:text="Toulouse et environs"
             android:inputType="textPostalAddress" />
 
         <ImageView
@@ -251,16 +267,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/quicksand_medium"
+            android:textStyle="bold"
             android:text="Lieu de travail" />
     </LinearLayout>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:fontFamily="@font/quicksand_medium"
-        android:text="Sauvegarder" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -273,6 +282,16 @@
             android:layout_height="125dp"
             android:layout_weight="1"
             android:text="" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/quicksand_medium"
+            android:textColor="#66439B"
+            android:text="@string/sauvegarder"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
